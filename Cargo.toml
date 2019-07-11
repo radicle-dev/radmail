@@ -1,0 +1,12 @@
+[package]
+name = "radmail"
+version = "0.1.0"
+authors = ["Julian K. Arni <julian@monadic.xyz>"]
+edition = "2018"
+
+[dependencies]
+mailparse = "0.8.0"
+
+[[bin]]
+name = "radmailsend"
+path = "src/radmailsend.rs"
